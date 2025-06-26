@@ -1,22 +1,16 @@
 public class Elevator {
-    private double currentHeight;
-    private double targetHeight;
-    private double speed;
-    private boolean isMoving;
-
-    public Elevator( double targetHeight, double speed) {
-        this.currentHeight = 0.0;
-        this.targetHeight = targetHeight;
-        this.speed = speed;
-        this.isMoving = false;
+    public boolean isAtTop() { return false; }
+    public boolean isAtBottom() { return false; }
+    public void moveUp() {
+        System.out.println("Moving up");
     }
-
+    public void moveDown() {
+        System.out.println("Moving down");
+    }
+    public void stop() {
+        System.out.println("Stopping");
+    }
     
-
-
-
-
-
 
 
 
